@@ -30,3 +30,15 @@ export interface ResponseUser {
   data: User
 }
 
+//Para o update - Não é a melhor prática
+export interface RequestUpdate {
+  name: string;
+  job: string;
+}
+
+export interface ResponseUpdate {
+  name: string;
+  job: string;
+  updateAt: Date;
+}
+
