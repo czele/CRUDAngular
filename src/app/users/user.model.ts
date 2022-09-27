@@ -36,9 +36,10 @@ export interface RequestUpdate {
   job: string;
 }
 
+// UpdatedAt voltou como undefined
 export interface ResponseUpdate {
   name: string;
   job: string;
-  updateAt: Date;
+  updatedAt: Date;
 }
 
