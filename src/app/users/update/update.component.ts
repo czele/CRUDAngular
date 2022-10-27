@@ -11,8 +11,8 @@ import { RequestUpdate } from '../user.model';
 
 export class UpdateComponent implements OnInit {
 
-  id!: any;
-  request!: RequestUpdate;
+  id: string;
+  request: RequestUpdate;
 
   constructor(private userService: UserService, private activatedRoute: ActivatedRoute) { }
 
